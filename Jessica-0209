@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main()
+{
+    int n;
+    printf("Enter the element:\n");
+    scanf("%d",&n);
+    if(n%3==0)
+    {
+        printf("Foo");
+    }
+    else
+    if(n%2==0)
+    {
+        printf("Bar");
+    }
+    else
+    if(n%2==1)
+    {
+        printf("Baz");
+    }
+}
